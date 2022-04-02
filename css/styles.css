@@ -1,0 +1,295 @@
+.body {
+  font-family: var(--main-font), var(--second-font);
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+  --leading-color: #000;
+  --action-color: #2196f3;
+  --text-action-color: #fff;
+  --contacts-color: #757575;
+  --background-footer: #2f303a;
+  --background-menu: #fff;
+  --background-main: #e5e5e5;
+  --background-team: #f5f4fa;
+  --title-lorem: #212121;
+  --text-lorem: #757575;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+}
+
+.menu {
+  background: var(--background-menu);
+  align-items: center;
+}
+
+.header-title {
+  background: var(--background-footer);
+}
+
+.logo {
+  font-family: var(--second-font);
+  color: var(--action-color);
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.logo > span {
+  color: var(--leading-color);
+}
+
+.agency,
+.portfolio,
+.contact {
+  color: var(--leading-color);
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.agency:hover,
+.agency:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--action-color);
+}
+
+.mail,
+.phone {
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-right: 93px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.pages {
+  display: inline-flex;
+}
+
+.agency,
+.portfolio {
+  margin-right: 46px;
+}
+
+.mail {
+  margin-left: 371px;
+  margin-right: 50px;
+}
+
+.agency,
+.portfolio,
+.contact,
+.mail,
+.phone {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.header-title .title-one {
+  color: var(--text-action-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  text-align: center;
+  width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  justify-content: center;
+  margin-right: 252px;
+  margin-left: 252px;
+  letter-spacing: 0.06em;
+}
+
+.header-title .button-service {
+  background: var(--action-color);
+  color: var(--text-action-color);
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  cursor: pointer;
+  width: 200px;
+  justify-content: center;
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-bottom: 200px;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.lorem-list {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 94px 0;
+  padding-left: 15px;
+}
+
+.title-lorem {
+  color: var(--title-lorem);
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 270px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.text-lorem {
+  color: var(--text-lorem);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  text-align: left;
+  width: 270px;
+  flex-basis: calc(100%-40px / 4);
+}
+
+<!-------FOOTER------- > .logo2 {
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo2 {
+  font-family: var(--second-font);
+  color: var(--action-color);
+  font-size: 26px;
+}
+
+.logo2 > span {
+  color: var(--text-action-color);
+}
+
+.title-activities,
+.title-team {
+  color: var(--title-lorem);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.person-name {
+  color: var(--title-lorem);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.occupation {
+  color: var(--text-lorem);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.button {
+  color: var(--title-lorem);
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--action-color);
+  color: var(--text-action-color);
+}
+
+.title-portfolio-link {
+  color: var(--title-lorem);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.description-portfolio-link {
+  color: var(--text-lorem);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.mail,
+.phone {
+  color: var(--contacts-color);
+  font-size: 14px;
+}
+
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus,
+.mail2:hover,
+.mail2:focus,
+.phone2:hover,
+.phone2:focus {
+  color: var(--action-color);
+}
+
+.mail2,
+.phone2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.address {
+  color: var(--text-action-color);
+  font-size: 14px;
+}
+
+.mail2,
+.phone2,
+.address {
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer {
+  background: var(--background-footer);
+}
+
+.main,
+.activities {
+  background: var(--background-main);
+}
+
+.team {
+  background: var(--background-team);
+}

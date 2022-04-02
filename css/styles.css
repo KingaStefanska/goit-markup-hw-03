@@ -157,13 +157,20 @@ img {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 700;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   width: 200px;
   justify-content: center;
   margin-bottom: 200px;
   letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 4px;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-right: 500px;
   margin-left: 500px;
 }
@@ -288,6 +295,7 @@ li.photo {
   line-height: 1.62;
   font-weight: 500;
   cursor: pointer;
+  padding: 6px 22px;
 }
 
 .button:hover,
@@ -308,11 +316,14 @@ li.photo {
 
 .portfolio-pictures {
   margin-bottom: 30px;
-  border: 1px solid var(--border-box);
+  border-bottom: 1px solid var(--border-box);
 }
 
 .description {
-  margin: 20px 24px;
+  box-sizing: border-box;
+  padding: 20px 24px;
+  border-right: 1px solid var(--border-box);
+  border-left: 1px solid var(--border-box);
 }
 
 .title-portfolio-link {

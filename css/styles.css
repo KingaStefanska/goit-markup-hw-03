@@ -256,10 +256,6 @@ li.photo {
   text-align: center;
 }
 
-.activities {
-  background: var(--background-main);
-}
-
 .team {
   background: var(--background-team);
 }

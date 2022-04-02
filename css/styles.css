@@ -26,7 +26,8 @@ h5,
 h6,
 ul,
 ol,
-p {
+p,
+figure {
   padding: 0;
   margin: 0;
 }
@@ -45,6 +46,9 @@ img {
 
 .container {
   width: 1200px;
+  padding: 0 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .menu {
@@ -62,6 +66,9 @@ img {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  margin-top: 24px;
+  margin-right: 93px;
+  margin-bottom: 25px;
 }
 
 .logo > span {
@@ -90,13 +97,15 @@ img {
 .phone {
   line-height: 1.1;
   font-weight: 500;
+  color: var(--contacts-color);
+  font-size: 14px;
 }
 
-.logo {
-  margin-top: 24px;
-  margin-right: 93px;
-  margin-bottom: 25px;
-  padding-left: 15px;
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--action-color);
 }
 
 .pages {
@@ -118,8 +127,8 @@ img {
 .contact,
 .mail,
 .phone {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   align-items: center;
 }
 
@@ -133,9 +142,9 @@ img {
   padding-top: 200px;
   padding-bottom: 30px;
   justify-content: center;
+  letter-spacing: 0.06em;
   margin-right: 252px;
   margin-left: 252px;
-  letter-spacing: 0.06em;
 }
 
 .header-title .button-service {
@@ -147,18 +156,22 @@ img {
   cursor: pointer;
   width: 200px;
   justify-content: center;
-  margin-right: 500px;
-  margin-left: 500px;
   margin-bottom: 200px;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-right: 500px;
+  margin-left: 500px;
 }
+
 .lorem-list {
   display: inline-flex;
   flex-direction: row;
   margin: 94px 0;
-  padding-left: 15px;
+}
+
+.lorem {
+  padding-right: 30px;
 }
 
 .title-lorem {
@@ -168,8 +181,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   width: 270px;
-  padding-right: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .text-lorem {
@@ -182,20 +194,21 @@ img {
   flex-basis: calc(100%-40px / 4);
 }
 
-<!-------FOOTER------- > .logo2 {
-  line-height: 1.2;
-  font-weight: 700;
-  text-decoration: none;
+.title-activities {
+  margin-right: 424px;
+  margin-bottom: 50px;
+  margin-left: 424px;
+  width: 352px;
 }
 
-.logo2 {
-  font-family: var(--second-font);
-  color: var(--action-color);
-  font-size: 26px;
+.picture {
+  width: 370px;
 }
 
-.logo2 > span {
-  color: var(--text-action-color);
+.list-activities {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .title-activities,
@@ -206,17 +219,46 @@ img {
   font-weight: 700;
 }
 
+.title-team {
+  margin-right: 495px;
+  margin-bottom: 50px;
+  margin-left: 496px;
+  padding-top: 94px;
+  width: 209px;
+}
+
+li.photo {
+  max-width: 270px;
+}
+
+.list-team {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 94px;
+}
+
 .person-name {
   color: var(--title-lorem);
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
+  text-align: center;
 }
 
 .occupation {
   color: var(--text-lorem);
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
+}
+
+.main,
+.activities {
+  background: var(--background-main);
+}
+
+.team {
+  background: var(--background-team);
 }
 
 .button {
@@ -246,16 +288,20 @@ img {
   line-height: 1.88;
 }
 
-.mail,
-.phone {
-  color: var(--contacts-color);
-  font-size: 14px;
+.logo2 {
+  font-family: var(--second-font);
+  color: var(--action-color);
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 20px;
 }
 
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus,
+.logo2 > span {
+  color: var(--text-action-color);
+}
+
 .mail2:hover,
 .mail2:focus,
 .phone2:hover,
@@ -279,17 +325,14 @@ img {
 .address {
   line-height: 1.71;
   text-decoration: none;
+  padding-top: 9px;
+}
+
+.phone2 {
+  padding-bottom: 60px;
 }
 
 .footer {
   background: var(--background-footer);
-}
-
-.main,
-.activities {
-  background: var(--background-main);
-}
-
-.team {
-  background: var(--background-team);
+  padding-top: 60px;
 }

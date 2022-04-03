@@ -190,6 +190,11 @@ img {
   padding-right: 30px;
 }
 
+.lorem .right {
+  padding-right: 30px;
+  padding-right: 15px;
+}
+
 .title-lorem {
   color: var(--title-lorem);
   font-size: 14px;

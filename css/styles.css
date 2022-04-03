@@ -1,5 +1,6 @@
 .body {
   font-family: var(--main-font), var(--second-font);
+  background: var(--background-menu);
   box-sizing: border-box;
 }
 

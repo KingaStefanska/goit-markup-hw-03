@@ -49,7 +49,8 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -70,6 +71,7 @@ img {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  padding-left: 15px;
   margin-top: 24px;
   margin-right: 93px;
   margin-bottom: 25px;
@@ -145,6 +147,7 @@ img {
   width: 696px;
   padding-top: 200px;
   padding-bottom: 30px;
+  padding-left: 15px;
   justify-content: center;
   letter-spacing: 0.06em;
   margin-right: 252px;
@@ -171,6 +174,7 @@ img {
   border-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 15px;
   margin-right: 500px;
   margin-left: 500px;
 }
@@ -178,6 +182,7 @@ img {
 .lorem-list {
   display: inline-flex;
   flex-direction: row;
+  padding-left: 15px;
   margin: 94px 0;
 }
 
@@ -206,6 +211,11 @@ img {
 }
 
 .title-activities {
+  color: var(--title-lorem);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  padding-left: 15px;
   margin-right: 424px;
   margin-bottom: 50px;
   margin-left: 424px;
@@ -219,18 +229,17 @@ img {
 .list-activities {
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
   padding-bottom: 94px;
+  padding-left: 15px;
 }
 
-.title-activities,
 .title-team {
   color: var(--title-lorem);
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
-}
-
-.title-team {
+  text-align: center;
   margin-right: 495px;
   margin-bottom: 50px;
   margin-left: 496px;
@@ -274,6 +283,7 @@ li.photo {
 .list-buttons {
   display: flex;
   justify-content: center;
+  padding-left: 15px;
   margin-right: 310px;
   margin-bottom: 34px;
   margin-left: 310px;
@@ -310,7 +320,9 @@ li.photo {
 .portfolio-links {
   display: flex;
   justify-content: space-between;
+  padding-right: 15px;
   padding-bottom: 94px;
+  padding-left: 15px;
   flex-wrap: wrap;
 }
 
@@ -347,6 +359,7 @@ li.photo {
   font-weight: 700;
   text-decoration: none;
   padding-bottom: 20px;
+  padding-left: 15px;
 }
 
 .logo2 > span {
@@ -377,6 +390,7 @@ li.photo {
   line-height: 1.71;
   text-decoration: none;
   padding-top: 9px;
+  padding-left: 15px;
 }
 
 .phone2 {

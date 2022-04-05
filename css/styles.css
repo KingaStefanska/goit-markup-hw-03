@@ -37,6 +37,7 @@ figure {
 
 img {
   display: block;
+  height: auto;
 }
 
 .link {

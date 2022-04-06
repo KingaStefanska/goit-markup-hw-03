@@ -294,6 +294,11 @@ li.photo {
   margin: 94px 0;
 }
 
+.main2 {
+  justify-content: center;
+  background: var(--main-portfolio);
+}
+
 .list-buttons {
   display: flex;
   justify-content: center;

@@ -2,6 +2,7 @@
   font-family: var(--main-font), var(--second-font);
   background: var(--background-menu);
   box-sizing: border-box;
+  width: 1600px;
 }
 
 :root {
@@ -59,7 +60,6 @@ img {
 .menu {
   display: flex;
   justify-content: center;
-  width: 1600px;
   background: var(--background-menu);
   align-items: center;
   border-bottom: 1px solid var(--header-line);
@@ -139,7 +139,6 @@ img {
 
 .header-title {
   justify-content: center;
-  width: 1600px;
   background: var(--background-footer);
   height: 600px;
 }
@@ -169,7 +168,7 @@ img {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
   width: 200px;
-  display: flex;
+  margin-left: 500px;
   justify-content: center;
   letter-spacing: 0.06em;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -184,8 +183,7 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-left: 15px;
-  margin: 94px 0;
+  flex-basis: calc(100% / 4 -30px);
 }
 
 .lorem {
@@ -198,8 +196,7 @@ img {
   line-height: 1.1;
   font-weight: 700;
   text-transform: uppercase;
-  width: 270px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .text-lorem {
@@ -208,13 +205,11 @@ img {
   line-height: 1.71;
   font-weight: 400;
   text-align: left;
-  width: 270px;
-  flex-basis: calc(100%-40px / 4);
 }
 
 .activities {
+  display: flex;
   justify-content: center;
-  width: 1600px;
 }
 
 .title-activities {
@@ -222,14 +217,18 @@ img {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
 .picture {
   width: 370px;
-  padding-right: 0;
+  padding: 0 15px;
+}
+
+.picture:not(last-child) {
+  margin-right: 30px;
 }
 
 .list-activities {
@@ -238,13 +237,9 @@ img {
   padding-bottom: 94px;
 }
 
-.list-activities > .picture:not(last-child) {
-  margin-right: 30px;
-}
-
 .team {
+  display: flex;
   justify-content: center;
-  width: 1600px;
 }
 
 .title-team {
@@ -253,7 +248,7 @@ img {
   line-height: 1.2;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   padding-top: 94px;
   display: flex;
   justify-content: center;
@@ -261,6 +256,7 @@ img {
 
 li.photo {
   max-width: 270px;
+  padding: 0 15px;
 }
 
 .list-team {
@@ -294,8 +290,8 @@ li.photo {
 
 .main {
   justify-content: center;
-  width: 1600px;
   background: var(--main-portfolio);
+  margin: 94px 0;
 }
 
 .list-buttons {
@@ -419,5 +415,4 @@ li.photo {
   background: var(--background-footer);
   padding-top: 60px;
   justify-content: flex-start;
-  width: 1600px;
 }

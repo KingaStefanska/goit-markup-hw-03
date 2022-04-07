@@ -255,8 +255,13 @@ img {
 }
 
 .photo {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.photo-of-a-person {
   max-width: 270px;
-  padding: 0 15px;
 }
 
 .list-team {
@@ -265,15 +270,15 @@ img {
   padding-bottom: 94px;
 }
 
-.list-team > .photo:not(last-child) {
+.photo:not(:last-child) {
   margin-right: 30px;
 }
 
-.list-team > .persone-name:not(last-child) {
+.persone-name:not(:last-child) {
   margin-right: 30px;
 }
 
-.list-team > .occupation:not(last-child) {
+.occupation:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -292,6 +297,12 @@ img {
   line-height: 1.2;
   text-align: center;
   padding: 0 15px;
+}
+
+.description {
+  box-sizing: border-box;
+  width: 270px;
+  padding: 20px 24px;
 }
 
 .team {
@@ -360,15 +371,12 @@ img {
   border-bottom: 1px solid var(--border-box);
 }
 
-.description {
+.description-portfolio {
   box-sizing: border-box;
-  width: 270px;
+  width: 370px;
   padding: 20px 24px;
   border-right: 1px solid var(--border-box);
   border-left: 1px solid var(--border-box);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .title-portfolio-link {

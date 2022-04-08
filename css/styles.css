@@ -3,7 +3,7 @@
   background: var(--background-menu);
   box-sizing: border-box;
   max-width: 1600px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 :root {

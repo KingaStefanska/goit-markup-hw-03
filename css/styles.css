@@ -2,7 +2,8 @@
   font-family: var(--main-font), var(--second-font);
   background: var(--background-menu);
   box-sizing: border-box;
-  width: 1600px;
+  max-width: 1600px;
+  margin: 0;
 }
 
 :root {
